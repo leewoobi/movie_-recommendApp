@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/route_manager.dart';
 import 'package:movie_recommend/pages/app.dart';
 
 void main() {
