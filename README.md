@@ -1,7 +1,7 @@
 # movie_recommend
 
 A new Flutter project.
-
+![Hnet-image](https://user-images.githubusercontent.com/79895996/146253772-f463c37f-3a2b-44fe-aa0c-a64721c1e797.gif)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
