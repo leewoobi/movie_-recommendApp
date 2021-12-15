@@ -72,7 +72,7 @@ class _AppState extends State<App> {
                         '현재 상영중',
                         style: TextStyle(
                             fontWeight: FontWeight.w700,
-                            fontSize: 20,
+                            fontSize: 22,
                             fontFamily: 'NotoSans'),
                       ),
                     ),
