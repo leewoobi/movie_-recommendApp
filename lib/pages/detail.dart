@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:movie_recommend/components/genreToString.dart';
-import 'package:movie_recommend/pages/app.dart';
-import 'package:movie_recommend/utils/colors.dart';
+import 'package:movie_recommend/utils/textSt.dart';
 
 class DetailContView extends StatefulWidget {
   const DetailContView({Key? key, required this.data}) : super(key: key);

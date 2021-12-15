@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:movie_recommend/pages/app.dart';
+import 'package:movie_recommend/pages/test.dart';
+import 'package:movie_recommend/provider/movies_provider.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +19,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: App(),
+      home: MultiProvider(
+        providers: [
+          ChangeNotifierProvider(
+              create: (BuildContext context) => MovieProvider())
+        ],
+        child: App(),
+      ),
     );
   }
 }

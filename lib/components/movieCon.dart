@@ -3,7 +3,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';
 import 'package:movie_recommend/components/genreToString.dart';
 import 'package:movie_recommend/pages/detail.dart';
-import 'package:movie_recommend/utils/colors.dart';
+import 'package:movie_recommend/utils/textSt.dart';
 
 class MoviesContents extends StatelessWidget {
   const MoviesContents({required this.movies, required this.titles, Key? key})
